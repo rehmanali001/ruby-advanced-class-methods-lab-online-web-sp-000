@@ -12,4 +12,5 @@ class Song
   
   def Song.create(song)
     @@all << song
+  end
 end
