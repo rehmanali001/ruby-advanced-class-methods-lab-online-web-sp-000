@@ -33,5 +33,6 @@ class Song
     string = self.new
     string = string_name
     if @@all.find(string)
+      string
   end
 end
