@@ -34,3 +34,4 @@ class Song
      title.name = string_name
   end
 end
+end
