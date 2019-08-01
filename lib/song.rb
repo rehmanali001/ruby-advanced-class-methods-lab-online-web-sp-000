@@ -33,4 +33,5 @@ class Song
     string = self.new
     string.find = string_name
     string
+  end
 end
