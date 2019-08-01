@@ -33,5 +33,5 @@ class Song
    self.all.find do |title|
      title.name = string_name
   end
-end
+  end
 end
