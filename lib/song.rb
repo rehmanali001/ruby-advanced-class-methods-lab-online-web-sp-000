@@ -24,6 +24,6 @@ class Song
   
   def self.create_by_name(string_name)
     string = self.new
-    string.name = string_name << @all
+    string.name = string_name.push(@@all)
   end
 end
