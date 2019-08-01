@@ -30,7 +30,8 @@ class Song
   end
   
   def self.find_by_name(string_name)
-   self.all.find 
+   self.all.find do |title|
+     
   end
 end
 end
