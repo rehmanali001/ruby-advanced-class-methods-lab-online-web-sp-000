@@ -40,6 +40,6 @@ class Song
   end
   
   def self.alphabetical
-  
-end
+    song = self.new
+  end
 end
