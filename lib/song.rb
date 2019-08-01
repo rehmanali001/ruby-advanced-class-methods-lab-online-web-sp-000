@@ -13,7 +13,7 @@ class Song
   def self.create(song)
     song = self.new 
     song.save
-    son
+    song
   end
 
   def self.new_by_name(string_name)
