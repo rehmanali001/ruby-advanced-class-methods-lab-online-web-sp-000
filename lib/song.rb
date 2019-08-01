@@ -34,4 +34,6 @@ class Song
      title.name == string_name
   end
   end
+  
+  def .find_or_create_by_name
 end
