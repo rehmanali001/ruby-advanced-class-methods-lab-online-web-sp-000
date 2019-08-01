@@ -28,4 +28,7 @@ class Song
     string.save
     string
   end
+  
+  def self.find_by_name(string_name)
+    string = self.new
 end
