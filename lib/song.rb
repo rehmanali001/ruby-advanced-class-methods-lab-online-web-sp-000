@@ -32,5 +32,6 @@ class Song
   def self.find_by_name(string_name)
     string = self.new
     string = string_name
+    if @@all.find(string)
   end
 end
