@@ -31,7 +31,7 @@ class Song
   
   def self.find_by_name(string_name)
    self.all.find do |title|
-     title.name = string_name
+     title.name == string_name
   end
   end
 end
